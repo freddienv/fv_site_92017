@@ -1,0 +1,224 @@
+* {
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  color: inherit;
+  line-height: inherit;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:focus, :active, :hover {
+  outline: 0;
+}
+
+::-moz-selection {
+  background: #666;
+  color: #fff;
+  text-shadow: none;
+}
+
+.pdficon {
+  width: 50px;
+  float: right;
+  margin-top: -70px;
+  margin-right: 80px;
+}
+::selection {
+  background: #666;
+  color: #fff;
+  text-shadow: none;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: default;
+
+  font-size: 125%;
+  font-family: "Helvetica Neue", "Helvetica", "Ubuntu", "Segoe UI", Verdana, sans-serif;
+
+  color: #666;
+  background-color: #fff;
+
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+  height: 100%;
+  line-height: 1.5;
+}
+
+main {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+nav {
+  height: 100%;
+  overflow: auto;
+}
+
+section, header {
+  width: 100%;
+  max-width: 700px;
+}
+
+section {
+  margin: 0 auto;
+}
+h2 {
+  font-family: serif;
+  font-size: 1.2em;
+}
+h4 {
+  color: #FFF;
+  padding: .5em 1rem;
+  font-size: .7em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+section:first-child {
+  margin-top: 6.25%;
+}
+
+section:last-child {
+  margin-bottom: 6.25%;
+}
+
+section:nth-child(2) header {
+  background: #57A922;
+}
+
+section:nth-child(3) header {
+  background: #F7AB00;
+}
+
+section:nth-child(4) header {
+  background: #EA6F00;
+}
+
+section:nth-child(5) header {
+  background: #D5262C;
+}
+
+section:nth-child(6) header {
+  background: #7E2985;
+}
+
+section:nth-child(7) header {
+  background: #1985D4;
+}
+
+article {
+  margin: 1rem;
+}
+
+p, ul {
+  margin-bottom: 1em;
+}
+
+li {
+  margin-bottom: .25em;
+  margin-left: 1em;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: serif;
+}
+
+a {
+  border-bottom: 2px solid #ccc;
+  text-decoration: none;
+}
+
+a:focus, a:active {
+  border-color: #1985D4;
+}
+
+a:active {
+  color: #1985D4;
+}
+
+strong {
+  font-weight: bold;
+}
+
+small {
+  font-size: .8em;
+}
+
+code {
+  font-family: Menlo, "Ubuntu Mono", Consolas, "Courier New", monospace;
+  font-size: .9em;
+}
+
+.btn {
+  display: inline-block;
+  padding: .25em .5em;
+  border-radius: 2px;
+  border: 2px solid #ccc;
+}
+
+.btn:active {
+  background: #1985D4;
+  color: #fff;
+}
+
+.arrow {
+  float: right;
+  color: #ccc;
+  padding-bottom: 18px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNiA2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0wIDJoMnYtMmgydjJoMmwtMyA0eiIgZmlsbD0iI2RkZCIvPjwvc3ZnPg==");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 18px;
+  margin-top: 70px;
+}
+.resu_me {
+  border-radius: 100%;
+  width: 80px;
+  margin-left: 20px;
+  opacity: .7;
+}
+#A_1 {
+    float: right;
+    margin: -30px -60px;
+    background-position: 25px 50%;
+    box-sizing: border-box;
+    color: rgb(55, 55, 55);
+    display: block;
+    height: 24px;
+    min-height: auto;
+    min-width: auto;
+    text-align: left;
+    text-decoration: none;
+    width: 133.094px;
+    column-rule-color: rgb(55, 55, 55);
+    perspective-origin: 91.5469px 12px;
+    transform-origin: 91.5469px 12px;
+    background: rgb(255, 255, 255) url("http://freddievaldez.net/img/arrow_down.png") no-repeat scroll 5px 50% / auto padding-box border-box;
+    border: 1px solid rgb(196, 199, 194);
+    border-radius: 4px 4px 4px 4px;
+    font: normal normal normal normal 12px / 12px PTSansRegular, Arial, sans-serif;
+    outline: rgb(55, 55, 55) none 0px;
+    padding: 5px 8px 5px 19px;
+}/*#A_1*/

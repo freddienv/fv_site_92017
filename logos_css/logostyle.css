@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  font-size: .9rem;
+}
+h1 {
+  text-align: center;
+}
+
+/* 1 column: 320px */
+.autowide {
+  margin: auto;
+	max-width: 95%;
+}
+.autowide img {
+  float: left;
+  margin: 0 .75rem 0 0;
+  max-width: 100%;
+}
+.autowide .module {
+  background-color: lightgrey;
+  border-radius: .25rem;
+  margin-bottom: 1rem;
+  max-width: 100%;
+}
+.autowide .module p {
+  padding: .25rem .75rem;
+}
+
+#lvalogo {
+  width: 100%;
+}
+p::first-line {
+  line-height: 2em;
+  text-decoration: underline;
+}
+/* 2 columns: 600px */
+@media only screen and (min-width: 600px) {
+  .autowide .module {
+		float: left;
+		margin-right: 2.564102564102564%;
+		width: 48.717948717948715%;
+	}
+	.autowide .module:nth-child(2n+0) {
+		margin-right: 0;
+	}
+}
+
+/* 3 columns: 900px */
+@media only screen and (min-width: 1200px) {
+  .autowide .module {
+		width: 25.623931623931625%;
+	}
+	.autowide .module:nth-child(2n+0) {
+		margin-right: 2.564102564102564%;
+	}
+	.autowide .module:nth-child(3n+0) {
+		margin-right: 0;
+	}
+}
+
+/* 4 columns: 992px and up */
+/* @media only screen and (min-width: 992px) {
+  .autowide .module {
+		width: 25.076923076923077%;
+	}
+	.autowide .module:nth-child(3n+0) {
+		margin-right: 2.564102564102564%;
+	}
+	.autowide .module:nth-child(4n+0) {
+		margin-right: 0;
+	}
+}
