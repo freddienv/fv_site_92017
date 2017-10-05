@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://slinky.iclanzan.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Freddie Valdez Résume</title>
+    <meta name="description" content="Scrolling navigation component for web apps">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="./Slinky.js_files/style.css">
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82425221-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+  <body>
+
+    <main>
+      <nav>
+        <section style="padding-top: 0px;">
+          <header style="position: absolute; top: 0px;"></header>
+          <article>
+            <small class="arrow">Scroll</small>
+            <h1>Freddie Valdez</h1>
+          <a href="img/resufv.pdf" id="A_1">Download as pdf</a>
+          </article>
+        </section>
+        <section style="">
+          <header style="top: 0px;"><h4>Summary</h4></header>
+          <article>
+            <p>I am an experienced Graphic Artist accustomed to work in a production environment. I am very flexible and eager to learn new technologies, having completed a certificate thru UCI Extension in the area of Web Design and Development, I believe I have acquired a solid foundation in HTML5, CSS3 and Javascript. Please check out my portfolio to assess my skill level. I am also an experienced user of the Adobe Creative Suite; my Illustrator skills go back to the 80's. I am also fortunate to have drawing and painting skills. I am a print and web graphics professional with a desire to work with a company that can benefit from what I can offer. I am also bilingual(English/Spanish) with written and oral fluency.</p>
+          </article>
+        </section>
+        <section style="">
+          <header style="top: 35px;"><h4>Skills</h4></header>
+          <article>
+            <ul>
+              <li><strong>Adobe Creative Suite CC 2015</strong> Specializing in Illustrator, InDesign, Photoshop and Acrobat to deliver graphics for Web and Print.</li>
+              <li><strong>HTML5/CSS/Javascript</strong> See the sites section on my portfolio</li>
+              <li><strong>jQuery/Ajax/PHP</strong> Ego sum so so on this... I got the book and the lessons!</li>
+              <li><strong>Traditional Drawing</strong> Pencil, airbrush, caligraphy</li>
+            </ul>
+          </article>
+        </section>
+        <section style="padding-top: 35px;">
+          <header style="position: absolute; bottom: 105px;"><h4>Experience</h4></header>
+          <article>
+            <p><strong>PANASONIC DISC MANUFACTURING CORP.</strong><br> Torrance, CA	From 2001 to 2015<br>
+Digital Graphic Designer/Prepress Supervisor.
+</p>
+• Create and maintain graphics catalog for the production of DVD and Bluray movies for main major movie studios: Universal, Paramount, Columbia, TriStar, USA Home Video, and Nintendo.<br>
+•	Assist Printing/Prepress to ensure quality prints.<br>• Create company posters and signage for safety, ISO and production departments.<br>
+•	Develop forms for ISO training procedures in Acrobat.<br>
+•	Troubleshoot problem files.<br>
+•	Transfer files via ftp and http.<br>
+•	Supervise Prepress team to maintain production lines.
+</p>
+ <p><strong>CINRAM </strong> <br>Anaheim, CA From 1994 to 2001<br>
+Digital Graphic Designer/Prepress Supervisor.
+<p>• Art Production for CD-ROM/DVD and CD Audio.
+• Scanning/typesetting/retouching.<br>
+• Prepared files for maximum printing quality: color separations/color proofing.<br>
+• Worked closely with customer service to ensure quality and meet company standards.<br>
+• Updated software and hardware in the Art Department to maintain compatibility.<br>
+• Maintained, upgraded and backed up 3 workstations to meet customers' needs.</p>
+
+</p>
+          </article>
+        </section>
+        <section style="padding-top: 35px;">
+          <header style="position: absolute; bottom: 70px;"><h4>Education</h4></header>
+            <li><strong>UCI_Online </strong>Certificate in Web Design and Development 2015/2016</li>
+<li><strong>Cypress College </strong>Commercial Art 1988</li>
+     <li><strong>OC Regional Occupational Program: </strong>Graphic Design 1988/89</li>
+          <li><strong>Awards: </strong>Design Concepts Purchase award 1988 Cypress College</li> </section>
+        <section style="padding-top: 35px;">
+          <header style="position: absolute; bottom: 35px;"><h4>Personal</h4></header>
+          <article>
+            <p>I enjoy working on my mac. I take pride in producing artwork that makes customers happy. I also enjoy playing jazz guitar, food, wine and cheese, reading, picnics, camping, and... coding.
+          </article>
+        </section>
+        <section style="padding-top: 35px;">
+          <header style="bottom: 0px; position: absolute;"><h4>Contact</h4></header>
+          <article>
+            <h1>Freddie Valdez</h1><a href="mailto:freddienv@gmail.com">freddienv@gmail.com</a><br>714.563.9603</br>714.888.5094 GoogleVoice [text only]<br>
+            Website:<a href="http://www.freddievaldez.net" target="_blank">
+            http://www.freddievaldez.net/
+          </article>
+        </section>
+      </nav>
+    </main>
+
+    <script src="./Slinky.js_files/jquery.min.js"></script>
+    <script src="./Slinky.js_files/jquery.slinky.min.js"></script>
+    <script>
+      $('main').slinky();
+    </script>
+
+
+
+</body></html>
